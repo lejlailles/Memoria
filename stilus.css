@@ -1,0 +1,34 @@
+
+
+body {
+  background-color: tomato;
+}
+
+main {
+  width: 800px;
+  background-color: white;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px;
+ 
+}
+
+article div {
+  border: 2px solid tomato;
+  width:100%;
+ 
+}
+
+article div img {
+  width: 100%;
+ 
+}
